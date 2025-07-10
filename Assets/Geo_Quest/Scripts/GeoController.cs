@@ -15,6 +15,7 @@ public class GeoController : MonoBehaviour
         Debug.Log("I think that the class I am learing is intersting");
         string stan = "I'm fine,thank you and you?";
         Debug.Log(stone+"   "+stan);
+        Debug.Log(transform.position+=new Vector3(0.005f,0,0));
     }
 
     // Update is called once per frame
@@ -22,6 +23,6 @@ public class GeoController : MonoBehaviour
     {
         Debug.Log(varTwo);
         varTwo++;
-        varTwo--;
+        
     }
 }

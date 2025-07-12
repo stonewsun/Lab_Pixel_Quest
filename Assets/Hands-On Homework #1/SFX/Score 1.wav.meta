@@ -1,5 +1,7 @@
 fileFormatVersion: 2
-guid: 55f1117a8004f0343be9a6fae74ffc1e
+guid: 1fad9105d3868f540b7e959336b60577
+labels:
+- Water
 AudioImporter:
   externalObjects: {}
   serializedVersion: 7
@@ -11,7 +13,7 @@ AudioImporter:
     compressionFormat: 1
     quality: 1
     conversionMode: 0
-    preloadAudioData: 1
+    preloadAudioData: 0
   platformSettingOverrides: {}
   forceToMono: 0
   normalize: 1

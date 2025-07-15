@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class character : MonoBehaviour
 {
     public Rigidbody2D rb;
@@ -10,7 +10,7 @@ public class character : MonoBehaviour
     public float jump;
     public bool isJumping;
     private float Move;
-
+    public string nextlevel = "here";
 
     private void Start()
     {
@@ -25,6 +25,24 @@ public class character : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isJumping == false)
         {
             rb.AddForce(new Vector2(rb.velocity.x, jump));
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        switch (collision.tag)
+        {
+            case "Death":
+                {
+                    string thislevel=SceneManager.GetActiveScene().name;
+                    SceneManager.LoadScene(thislevel);
+                    break;
+                }
+            case "Finish":
+                {
+                    SceneManager.LoadScene(nextlevel);
+                    break;
+                }
         }
     }
 

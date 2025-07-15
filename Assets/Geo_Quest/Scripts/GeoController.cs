@@ -5,12 +5,25 @@ using UnityEngine;
 public class GeoController : MonoBehaviour
 {
     private int varone = 1;
+
+    public GeoController(int varone)
+    {
+        this.varone = varone;
+    }
+
     private string stone = "How are you";
     int varTwo = 3;
+
+    public override bool Equals(object obj)
+    {
+        return obj is GeoController controller &&
+               base.Equals(obj) &&
+               varone == controller.varone;
+    }
+
     // Start is called before the first frame update    
     void Start()
     {
-        int var2 = 2;
         Debug.Log("Hello World,my name is stone");
         Debug.Log("I think that the class I am learing is intersting");
         string stan = "I'm fine,thank you and you?";

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class character : MonoBehaviour
 {
     public Rigidbody2D rb;
-
+    public SpriteRenderer ss;
     public float speed;
     public float jump;
     public bool isJumping;
@@ -15,6 +15,7 @@ public class character : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        ss = GetComponent<SpriteRenderer>();
     }
     void Update()
     {
@@ -26,6 +27,19 @@ public class character : MonoBehaviour
         {
             rb.AddForce(new Vector2(rb.velocity.x, jump));
         }
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            ss.color = Color.white;
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            ss.color = Color.yellow;
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            ss.color = Color.green;
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

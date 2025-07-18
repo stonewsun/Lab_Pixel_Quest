@@ -1,20 +1,22 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class HW2PlayerShoot : MonoBehaviour
+public class Bigbullet : MonoBehaviour
 {
     public GameObject perFab;
     public Transform bulletTrash;
     public Transform bulletSpawn;
 
-    private const float Timer = 0.5f;
-    private float _currenTime = 0.5f;
+    private const float Timer = 5f;
+    private float _currenTime = 5f;
     private bool _canShoot = true;
     private void Update()
     {
         TimerMethod();
         Shoot();
 
-        
+
     }
 
     private void TimerMethod()
@@ -32,7 +34,7 @@ public class HW2PlayerShoot : MonoBehaviour
 
     private void Shoot()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && _canShoot)
+        if (Input.GetKeyDown(KeyCode.Mouse1) && _canShoot)
         {
             GameObject bullet = Instantiate(perFab, bulletSpawn.position, Quaternion.identity);
 
@@ -40,6 +42,4 @@ public class HW2PlayerShoot : MonoBehaviour
             _canShoot = false;
         }
     }
-
-
 }

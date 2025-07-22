@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class playerstates : MonoBehaviour
 {
     public string nextlevel = "new";
+    public int coinCount = 0;
+    public int playerHealth = 3;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +34,22 @@ public class playerstates : MonoBehaviour
                     SceneManager.LoadScene(thislevel);
                     break;
                 }
+            case "Coin":
+                {
+                    coinCount++;
+                    Destroy(collision.gameObject);
+                    break;
+                }
+            case "playerHealth":
+                {
+                    playerHealth++;
+                    Destroy(collision.gameObject);
+                    break;
+                }
+
+
+
+
 
         }
     }

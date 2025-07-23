@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class playerstates : MonoBehaviour
 {
-    public string nextlevel = "new";
+    
     public int coinCount = 0;
-    public int playerHealth = 3;
+    public int Health = 3;
+    public Transform RespawnPoint;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,14 +26,24 @@ public class playerstates : MonoBehaviour
         {
             case "Finish":
                 {
-                    SceneManager.LoadScene(nextlevel);
+                    string nextLevel = collision.GetComponent<LevelGoal>().nextLevel;
+                    
+                    SceneManager.LoadScene(nextLevel);
                     break;
                 }
             case "Death":
                 {
-                    string thislevel = SceneManager.GetActiveScene().name;
-                    SceneManager.LoadScene(thislevel);
-                    break;
+                    Health --;
+                    if (Health <= 0)
+                    {
+                        string thislevel = SceneManager.GetActiveScene().name;
+                        SceneManager.LoadScene(thislevel);
+                    }
+                    else
+                    {
+                        transform.position = RespawnPoint.position;
+                    }
+                        break;
                 }
             case "Coin":
                 {
@@ -40,13 +51,23 @@ public class playerstates : MonoBehaviour
                     Destroy(collision.gameObject);
                     break;
                 }
-            case "playerHealth":
+            case "Health":
                 {
-                    playerHealth++;
-                    Destroy(collision.gameObject);
+                    
+                    if (Health < 3)
+                    {
+                        Destroy(collision.gameObject);
+                        Health++;
+                    }
+                    
                     break;
                 }
-
+            case "Respawn":
+                {
+                    RespawnPoint.position = collision.transform.Find("Point").position;
+                    
+                    break;
+                }
 
 
 

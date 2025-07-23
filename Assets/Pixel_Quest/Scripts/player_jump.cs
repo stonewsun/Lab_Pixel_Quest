@@ -15,9 +15,9 @@ public class player_jump : MonoBehaviour
     private bool _groundCheck;
     private float fallFource = 0.8f;
     private Vector2 _gravityVector;
-    public float jumpForce = 8f;
+    public float jumpForce = 6f;
     public bool _waterCheck;
-
+    //public int DoubleJump=2;
 
     // Start is called before the first frame update
     void Start()
@@ -44,7 +44,7 @@ public class player_jump : MonoBehaviour
         _groundCheck = Physics2D.OverlapCapsule(feetCollider.position,
             new Vector2(CapsuleHeight, CapsuleRadius), CapsuleDirection2D.Horizontal, 0, groundMask);
         
-        if (Input.GetKeyDown(KeyCode.Space) && (_groundCheck || _waterCheck))
+        if (Input.GetKeyDown(KeyCode.Space) && (_groundCheck || _waterCheck) /*&& (DoubleJump)*/)
         {
             rb.velocity = new Vector2(rb.velocity.x,jumpForce);
         }

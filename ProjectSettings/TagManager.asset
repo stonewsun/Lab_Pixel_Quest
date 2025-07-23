@@ -11,6 +11,9 @@ TagManager:
   - Bounds
   - Enemy
   - Floor
+  - TalkZone
+  - Bullet
+  - RespawnPoint
   layers:
   - Default
   - TransparentFX

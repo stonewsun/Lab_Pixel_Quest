@@ -2,24 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 public class playerstates : MonoBehaviour
 {
     
     public int coinCount = 0;
     public int Health = 3;
+    public int maxHealth = 3;
     public Transform RespawnPoint;
+    private playerUIcontroller  _playerUIcontroller;
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-       
-    }
+        _playerUIcontroller = GetComponent<playerUIcontroller>();
+        _playerUIcontroller.UpdateHealth(Health, maxHealth);
+;    }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         switch (collision.tag)
@@ -34,6 +34,7 @@ public class playerstates : MonoBehaviour
             case "Death":
                 {
                     Health --;
+                    _playerUIcontroller.UpdateHealth(Health,maxHealth);
                     if (Health <= 0)
                     {
                         string thislevel = SceneManager.GetActiveScene().name;
@@ -43,7 +44,8 @@ public class playerstates : MonoBehaviour
                     {
                         transform.position = RespawnPoint.position;
                     }
-                        break;
+                    
+                    break;
                 }
             case "Coin":
                 {
@@ -54,10 +56,13 @@ public class playerstates : MonoBehaviour
             case "Health":
                 {
                     
+
                     if (Health < 3)
                     {
-                        Destroy(collision.gameObject);
                         Health++;
+                        _playerUIcontroller.UpdateHealth(Health, maxHealth);
+                        Destroy(collision.gameObject);
+                        
                     }
                     
                     break;

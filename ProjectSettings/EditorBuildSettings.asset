@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Pixel_Quest/Scenes/Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
+  - enabled: 1
     path: Assets/Pixel_Quest/Scenes/Level2.unity
     guid: 3facdc570bdbf88479160d95a7444cb7
-  - enabled: 0
+  - enabled: 1
     path: Assets/Pixel_Quest/Scenes/Level3.unity
     guid: 4c80dc806f574e041a2be5c657062c62
   - enabled: 0
@@ -32,10 +32,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/risk/finish level.unity
     guid: e960ced205807c84ea3f0c04707d7d1e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Hands-On Homework #3/Scenes/ground.unity
     guid: f75dcdb9bf8a1cd45a73fee947bce6b7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Hands-On Homework #3/Scenes/house.unity
     guid: 5d0e1c0635155984cbaf127719ae7a69
   m_configObjects: {}

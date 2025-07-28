@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class playerstates : MonoBehaviour
 {
-    
+    public int CoinsInLevel = 0;
     public int coinCount = 0;
     public int Health = 3;
     public int maxHealth = 3;
@@ -15,7 +15,9 @@ public class playerstates : MonoBehaviour
     private void Start()
     {
         _playerUIcontroller = GetComponent<playerUIcontroller>();
-        _playerUIcontroller.UpdateHealth(Health, maxHealth);
+        _playerUIcontroller.StartUI();
+        CoinsInLevel = GameObject.Find("Coins").transform.childCount;
+        _playerUIcontroller.UpdateText(coinCount + "/" + CoinsInLevel);
 ;    }
 
     // Update is called once per frame
@@ -34,7 +36,7 @@ public class playerstates : MonoBehaviour
             case "Death":
                 {
                     Health --;
-                    _playerUIcontroller.UpdateHealth(Health,maxHealth);
+                    _playerUIcontroller.UpdateText(coinCount + "/" + CoinsInLevel);
                     if (Health <= 0)
                     {
                         string thislevel = SceneManager.GetActiveScene().name;

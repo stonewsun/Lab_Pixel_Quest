@@ -13,7 +13,7 @@ public class playerUIcontroller : MonoBehaviour
     public void StartUI()
     {
         heartImage = GameObject.Find("HeartImage").GetComponent<Image>();
-        _text = GameObject.Find("ConText").GetComponent<TextMeshProUGUI>();
+        _text = GameObject.Find("CoinText").GetComponent<TextMeshProUGUI>();
     }
     public void UpdateText(string newText)
     {

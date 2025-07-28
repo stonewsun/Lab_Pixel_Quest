@@ -52,6 +52,7 @@ public class playerstates : MonoBehaviour
             case "Coin":
                 {
                     coinCount++;
+                    _playerUIcontroller.UpdateText(coinCount + "/" + CoinsInLevel);
                     Destroy(collision.gameObject);
                     break;
                 }

@@ -42736,7 +42736,7 @@ Transform:
   m_GameObject: {fileID: 1327627283}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2, y: -0.1, z: 0}
+  m_LocalPosition: {x: -1.12, y: 0.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43049,7 +43049,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 38.455795, y: 1.3678927}
+  m_Offset: {x: 38.509384, y: 1.3985131}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -43060,7 +43060,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1618652, y: 1.2289351}
+  m_Size: {x: 0.77910995, y: 0.8614917}
   m_EdgeRadius: 0
 --- !u!1 &1404585601
 GameObject:
@@ -43316,7 +43316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8384855194911907762, guid: 66e7a201ffd7ff544a92f3c8cd502d4a, type: 3}
       propertyPath: speed
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

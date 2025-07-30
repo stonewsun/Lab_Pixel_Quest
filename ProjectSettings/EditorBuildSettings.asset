@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Pixel_Quest/Scenes/Menu-The Trip.unity
     guid: 480a8621a6651934d8dfb461017c6410
   - enabled: 1
-    path: Assets/Pixel_Quest/Scenes/TheTrip1.unity
-    guid: a282a1e6a7596b54cb2da7a806c47ec1
+    path: Assets/The Trip/jorden/train station.unity
+    guid: 935ecbbbe27a25e419146470eb6d354d
+  - enabled: 1
+    path: Assets/The Trip/jorden/train.unity
+    guid: 6bfa30070f8c1ee4fb15dba1e42258f9
   m_configObjects: {}

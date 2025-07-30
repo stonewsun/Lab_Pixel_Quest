@@ -21,11 +21,11 @@ public class player_movement : MonoBehaviour
         float xInput = Input.GetAxis("Horizontal");
         if (xInput <0)
         {
-            sr1.flipX = false;
+            sr1.flipX = true;
         }
         else if (xInput >0)
         {
-            sr1 .flipX = true;
+            sr1 .flipX = false;
         }
         Debug.Log(xInput);
         rb.velocity = new Vector2(xInput*speed, rb.velocity.y);

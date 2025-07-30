@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: station_260
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: -26232119, guid: 0be5a8b7e91b0754bb5ce90f142ab7cb, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.027450982, g: 0.09411766, b: 0.12941177, a: 1}
   m_Transform:
     e00: 1
     e01: 0

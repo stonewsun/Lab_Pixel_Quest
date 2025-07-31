@@ -4,7 +4,7 @@ using TMPro;
 public class CoinCollector : MonoBehaviour
 {
     public int coinCount = 0; // Total coins collected
-    public TextMeshPro coinText; // Drag your UI Text component here
+    public TextMeshProUGUI coinText; // Drag your UI Text component here
 
     void Start()
     {
@@ -15,7 +15,7 @@ public class CoinCollector : MonoBehaviour
     {
         if (other.CompareTag("Coin"))
         {
-            coinCount++;
+            coinCount+=20;
             Destroy(other.gameObject);
             UpdateCoinUI();
         }
@@ -25,7 +25,7 @@ public class CoinCollector : MonoBehaviour
     {
         if (coinText != null)
         {
-            coinText.text = "Coins: " + coinCount;
+            coinText.text = "Cash: " + coinCount;
         }
     }
 }

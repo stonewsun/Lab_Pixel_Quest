@@ -14,10 +14,10 @@ public class playerstates : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-       // _playerUIcontroller = GetComponent<playerUIcontroller>();
-        //_playerUIcontroller.StartUI();
-       // CoinsInLevel = GameObject.Find("Coins").transform.childCount;
-        //_playerUIcontroller.UpdateText(coinCount + "/" + CoinsInLevel);
+       //_playerUIcontroller = GetComponent<playerUIcontroller>();
+       // _playerUIcontroller.StartUI();
+       //CoinsInLevel = GameObject.Find("Coins").transform.childCount;
+      // _playerUIcontroller.UpdateText(coinCount + "/" + CoinsInLevel);
 ;    }
 
     // Update is called once per frame
@@ -36,7 +36,7 @@ public class playerstates : MonoBehaviour
             case "Death":
                 {
                     Health --;
-                   // _playerUIcontroller.UpdateText(coinCount + "/" + CoinsInLevel);
+                   _playerUIcontroller.UpdateText(coinCount + "/" + CoinsInLevel);
                     if (Health <= 0)
                     {
                         string thislevel = SceneManager.GetActiveScene().name;
@@ -52,7 +52,7 @@ public class playerstates : MonoBehaviour
             case "Coin":
                 {
                     coinCount++;
-                   // _playerUIcontroller.UpdateText(coinCount + "/" + CoinsInLevel);
+                   //_playerUIcontroller.UpdateText(coinCount + "/" + CoinsInLevel);
                     Destroy(collision.gameObject);
                     break;
                 }

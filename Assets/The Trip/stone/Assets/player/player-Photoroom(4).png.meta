@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 44e72fc22a9cded45ababb98e9d6c617
+guid: 7235b9ebdb2098d4daa3f1f5efded738
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 8
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 000-removebg-preview_0
+      name: player-Photoroom(4)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 436
-        width: 107
-        height: 145
+        y: 433
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7ccbc4d78cc43f498b4ab654c419ac8
-      internalID: -1115215411
+      spriteID: bc3f5366826e60143a0177647e7a63a5
+      internalID: -334758049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 000-removebg-preview_1
+      name: player-Photoroom(4)_1
       rect:
         serializedVersion: 2
-        x: 107
-        y: 436
-        width: 107
-        height: 145
+        x: 108
+        y: 433
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1b301cb87d9be442b10b3b9ab59487c
-      internalID: -1535533948
+      spriteID: 242cef528b1859e4b9cb73cf63645f11
+      internalID: -1376042533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 000-removebg-preview_2
+      name: player-Photoroom(4)_2
       rect:
         serializedVersion: 2
-        x: 214
-        y: 436
-        width: 107
-        height: 145
+        x: 216
+        y: 433
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45a89dc762b855d44a4d65a78c554609
-      internalID: 1393627662
+      spriteID: f6142edbaea64c84fa4851e3590fb437
+      internalID: -1857897785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 000-removebg-preview_3
+      name: player-Photoroom(4)_3
       rect:
         serializedVersion: 2
-        x: 321
-        y: 436
-        width: 107
-        height: 145
+        x: 324
+        y: 433
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b42e9e932db6494b95f012495de4270
-      internalID: -1506912093
+      spriteID: 4a474c710e0d5ed44b16331d76febe17
+      internalID: -1338675145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 000-removebg-preview_4
+      name: player-Photoroom(4)_4
       rect:
         serializedVersion: 2
         x: 0
         y: 291
-        width: 107
-        height: 145
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a9e7fc166f760844b20d165ccc6abdf
-      internalID: 355954912
+      spriteID: adf8a52a9da24824391791b081ee465c
+      internalID: 936416436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 000-removebg-preview_5
+      name: player-Photoroom(4)_5
       rect:
         serializedVersion: 2
-        x: 107
+        x: 108
         y: 291
-        width: 107
-        height: 145
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a69a3a9ac877a447ab1c4cac0b5e653
-      internalID: 463100062
+      spriteID: 5ef00befcec922a498f0340725646ae0
+      internalID: -1929481550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 000-removebg-preview_6
+      name: player-Photoroom(4)_6
       rect:
         serializedVersion: 2
-        x: 214
+        x: 216
         y: 291
-        width: 107
-        height: 145
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4befb9cc9d9c49349a442b78dda6237b
-      internalID: -673851667
+      spriteID: 26378d498189f174e877999cf52184f3
+      internalID: -2026095813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 000-removebg-preview_7
+      name: player-Photoroom(4)_7
       rect:
         serializedVersion: 2
-        x: 321
+        x: 324
         y: 291
-        width: 107
-        height: 145
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29d0f0574abbcf54e9de91239aeaea38
-      internalID: 1536159585
+      spriteID: 561e0385f2a8f7e4f9c7c9ac0155203b
+      internalID: -1014944763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 000-removebg-preview_8
+      name: player-Photoroom(4)_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 146
-        width: 107
-        height: 145
+        y: 149
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b98afda72d6306e4fabd61106c876cec
-      internalID: 2087346312
+      spriteID: c7027d67ce1205e4bad3f628e1580752
+      internalID: 685697681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 000-removebg-preview_9
+      name: player-Photoroom(4)_9
       rect:
         serializedVersion: 2
-        x: 107
-        y: 146
-        width: 107
-        height: 145
+        x: 108
+        y: 149
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,20 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 579c411469adab6419b7fe8535ae9d15
-      internalID: 1129331441
+      spriteID: 7a25eceb7eab90e4bb90bc260781555e
+      internalID: -2144463589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 000-removebg-preview_10
+      name: player-Photoroom(4)_10
       rect:
         serializedVersion: 2
-        x: 214
-        y: 146
-        width: 107
-        height: 145
+        x: 216
+        y: 149
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c477579d674899418ca3450234b9625
-      internalID: 2082906352
+      spriteID: e1b0c0d061133d14793c6c2d715f6340
+      internalID: -1603831412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 000-removebg-preview_11
+      name: player-Photoroom(4)_11
       rect:
         serializedVersion: 2
-        x: 321
-        y: 146
-        width: 107
-        height: 145
+        x: 324
+        y: 149
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,20 +355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35827a5926bc2d24681e3f744b3e702f
-      internalID: 519388895
+      spriteID: f6dc2fdb739299b4cb6ec5b191e55482
+      internalID: 1004656705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 000-removebg-preview_12
+      name: player-Photoroom(4)_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 107
-        height: 145
+        y: 7
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,20 +376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd319f54278d11f4fbca166a9a470f1d
-      internalID: -1905495997
+      spriteID: 38ab90566947a5b478d96ed9a3ae00b3
+      internalID: 920354696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 000-removebg-preview_13
+      name: player-Photoroom(4)_13
       rect:
         serializedVersion: 2
-        x: 107
-        y: 1
-        width: 107
-        height: 145
+        x: 108
+        y: 7
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,20 +397,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 884589141f9b06f4da710673ad63b883
-      internalID: -1067413102
+      spriteID: 147309ebe8e6ff642acb24de7e701829
+      internalID: -2080451354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 000-removebg-preview_14
+      name: player-Photoroom(4)_14
       rect:
         serializedVersion: 2
-        x: 214
-        y: 1
-        width: 107
-        height: 145
+        x: 216
+        y: 7
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,20 +418,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85e03fb4fd8d17e4c9ca7bdcc1cd0904
-      internalID: 88790951
+      spriteID: b077417461d3b4047ab808b9fee54e8e
+      internalID: -1965469419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 000-removebg-preview_15
+      name: player-Photoroom(4)_15
       rect:
         serializedVersion: 2
-        x: 321
-        y: 1
-        width: 107
-        height: 145
+        x: 324
+        y: 7
+        width: 108
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,8 +439,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5457996c8efa0a24bbf6a719fcf19628
-      internalID: 1084935129
+      spriteID: a0f9f27e3b54ea94fbfae447ff6aa305
+      internalID: 1447583141
       vertices: []
       indices: 
       edges: []
@@ -456,22 +456,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      000-removebg-preview_0: -1115215411
-      000-removebg-preview_1: -1535533948
-      000-removebg-preview_10: 2082906352
-      000-removebg-preview_11: 519388895
-      000-removebg-preview_12: -1905495997
-      000-removebg-preview_13: -1067413102
-      000-removebg-preview_14: 88790951
-      000-removebg-preview_15: 1084935129
-      000-removebg-preview_2: 1393627662
-      000-removebg-preview_3: -1506912093
-      000-removebg-preview_4: 355954912
-      000-removebg-preview_5: 463100062
-      000-removebg-preview_6: -673851667
-      000-removebg-preview_7: 1536159585
-      000-removebg-preview_8: 2087346312
-      000-removebg-preview_9: 1129331441
+      player-Photoroom(4)_0: -334758049
+      player-Photoroom(4)_1: -1376042533
+      player-Photoroom(4)_10: -1603831412
+      player-Photoroom(4)_11: 1004656705
+      player-Photoroom(4)_12: 920354696
+      player-Photoroom(4)_13: -2080451354
+      player-Photoroom(4)_14: -1965469419
+      player-Photoroom(4)_15: 1447583141
+      player-Photoroom(4)_2: -1857897785
+      player-Photoroom(4)_3: -1338675145
+      player-Photoroom(4)_4: 936416436
+      player-Photoroom(4)_5: -1929481550
+      player-Photoroom(4)_6: -2026095813
+      player-Photoroom(4)_7: -1014944763
+      player-Photoroom(4)_8: 685697681
+      player-Photoroom(4)_9: -2144463589
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

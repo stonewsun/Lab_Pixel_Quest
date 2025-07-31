@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI; // For UI Text
-
+using TMPro;
 public class CoinCollector : MonoBehaviour
 {
     public int coinCount = 0; // Total coins collected
-    public Text coinText; // Drag your UI Text component here
+    public TextMeshPro coinText; // Drag your UI Text component here
 
     void Start()
     {

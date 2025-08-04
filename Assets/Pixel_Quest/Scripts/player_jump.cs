@@ -7,8 +7,7 @@ public class player_jump : MonoBehaviour
     public Rigidbody2D rb;
     //public float jump = 10f;
     //public bool isJumping;
-    public Rigidbody2D groundCheck;
-    public float CapsuleHeight = 0.25f;
+    public float CapsuleHeight = 0.30f;
     public float CapsuleRadius = 0.08f;
     public Transform feetCollider;
     public LayerMask groundMask;
@@ -43,13 +42,13 @@ public class player_jump : MonoBehaviour
     {
         _groundCheck = Physics2D.OverlapCapsule(feetCollider.position,
             new Vector2(CapsuleHeight, CapsuleRadius), CapsuleDirection2D.Horizontal, 0, groundMask);
-        
+
         if (Input.GetKeyDown(KeyCode.Space) && (_groundCheck || _waterCheck) /*&& (DoubleJump)*/)
         {
             rb.velocity = new Vector2(rb.velocity.x,jumpForce);
         }
         
-        if(rb.velocity.y < 0 && !_waterCheck)
+        if(rb.velocity.y < 0)
         {
             rb.velocity += _gravityVector * (fallFource * Time.deltaTime);
         }

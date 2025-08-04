@@ -36,7 +36,7 @@ public class playerstates : MonoBehaviour
             case "Death":
                 {
                     Health --;
-                   _playerUIcontroller.UpdateText(coinCount + "/" + CoinsInLevel);
+                   //_playerUIcontroller.UpdateText(coinCount + "/" + CoinsInLevel);
                     if (Health <= 0)
                     {
                         string thislevel = SceneManager.GetActiveScene().name;

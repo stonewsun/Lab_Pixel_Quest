@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement; // For scene reload if needed
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxHealth = 100;
+    public int maxHealth = 2;
     public int currentHealth;
     public Transform spawnPoint; // Optional: assign spawn point for respawning
 
@@ -17,7 +17,7 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log(other.tag);
         if (other.CompareTag("Death"))
         {
-            TakeDamage(50); // Inflict massive damage to ensure death
+            TakeDamage(1); // Inflict massive damage to ensure death
         }
     }
 

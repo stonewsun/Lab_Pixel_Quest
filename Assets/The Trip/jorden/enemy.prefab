@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5004080424778504992}
   - component: {fileID: 7328356598508618962}
-  - component: {fileID: 1503616647659443071}
+  - component: {fileID: 5564262366313428796}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Death
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1503616647659443071
+--- !u!61 &5564262366313428796
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,7 +117,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.034211576, y: 0.03893757}
+  m_Offset: {x: -0.00000071525574, y: -0.54736197}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -128,5 +128,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.8366432, y: 3.8318448}
+  m_Size: {x: 3.6773171, y: 2.5368817}
   m_EdgeRadius: 0

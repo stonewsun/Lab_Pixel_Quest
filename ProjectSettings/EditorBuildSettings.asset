@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/The Trip/jorden/train.unity
     guid: 6bfa30070f8c1ee4fb15dba1e42258f9
+  - enabled: 1
+    path: Assets/The Trip/Chace/Scenes/Transition_1.unity
+    guid: 82d2eb72ca2190247b9f104244874e98
+  - enabled: 1
+    path: Assets/The Trip/Chace/Scenes/Transition_2.unity
+    guid: cfe432c22e0bf3340b9da1c763ee83b1
   m_configObjects: {}

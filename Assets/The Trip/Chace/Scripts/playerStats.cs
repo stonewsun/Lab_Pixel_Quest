@@ -55,7 +55,7 @@ public class PlayerStats : MonoBehaviour
                 }
             case "Finish":
                 {
-
+                 
                     SceneManager.LoadScene(nextLevel);
                     break;
                 }

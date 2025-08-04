@@ -23,5 +23,12 @@ public class PlayerMovement : MonoBehaviour
 
         // Apply movement
         transform.Translate(movement);
+
+
+
+
+
+
+
     }
 }

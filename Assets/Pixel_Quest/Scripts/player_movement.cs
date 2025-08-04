@@ -28,7 +28,7 @@ public class player_movement : MonoBehaviour
         {
             sr1 .flipX = false;
         }
-        Debug.Log(xInput);
+        
         rb.velocity = new Vector2(xInput*speed, yInput*speed);
         
 

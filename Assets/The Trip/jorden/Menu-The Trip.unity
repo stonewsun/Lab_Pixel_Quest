@@ -416,7 +416,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2058f5c9677407b4ea9a68a8478c0381, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextlevel: train station
+  nextlevel: Transition_1
+  ShopPanel: {fileID: 0}
 --- !u!4 &971759381
 Transform:
   m_ObjectHideFlags: 0
@@ -986,6 +987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextlevel: 
+  ShopPanel: {fileID: 0}
 --- !u!1 &2138589985
 GameObject:
   m_ObjectHideFlags: 0

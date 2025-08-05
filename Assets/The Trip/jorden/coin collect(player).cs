@@ -28,4 +28,6 @@ public class CoinCollector : MonoBehaviour
             coinText.text = "Cash: " + coinCount;
         }
     }
+
+    
 }

@@ -7,7 +7,7 @@ public class player_jump : MonoBehaviour
     public Rigidbody2D rb;
     //public float jump = 10f;
     //public bool isJumping;
-    public float CapsuleHeight = 0.30f;
+    public float CapsuleHeight = 0.40f;
     public float CapsuleRadius = 0.08f;
     public Transform feetCollider;
     public LayerMask groundMask;
